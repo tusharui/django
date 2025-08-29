@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Task 
 from .serializers import TaskSerializer , UserSerializer
-from  rest_framework_simplejwt import RefreshToken 
+from  rest_framework_simplejwt.tokens import RefreshToken 
 from rest_framework.response import Response 
 from rest_framework.views import APIView
 from django.contrib.auth  import authenticate
